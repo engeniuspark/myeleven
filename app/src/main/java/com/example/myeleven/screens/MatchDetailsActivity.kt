@@ -63,7 +63,6 @@ class MatchDetailsActivity : AppCompatActivity() {
 
     private fun navigateToTeamPlayers() {
         // Implement the logic to navigate to the Team Players screen
-        // You can start a new activity or use a navigation component
         val intent = Intent(this, SquadActivity::class.java)
         intent.putExtra("hashMapExtra", Gson().toJson(teamsData))
         startActivity(intent)

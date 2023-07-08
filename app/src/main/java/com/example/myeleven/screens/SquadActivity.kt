@@ -11,14 +11,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.myeleven.R
 import com.example.myeleven.adapters.PlayerAdapter
 import com.example.myeleven.models.Team
-import com.example.myeleven.viewmodels.SquadViewModel
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
 
 class SquadActivity : AppCompatActivity() {
 
-    private lateinit var viewModel: SquadViewModel
     private lateinit var playerAdapter: PlayerAdapter
     private var teamsData: Map<String, Team> = mapOf()
     private lateinit var recyclerView : RecyclerView

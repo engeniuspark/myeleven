@@ -32,26 +32,4 @@ class MatchDetailsViewModel : ViewModel() {
             }
         }
     }
-
-
-    /*private val _teamNames = MutableLiveData<String>()
-    val teamNames: LiveData<String> get() = _teamNames
-
-    private val _dateTime = MutableLiveData<String>()
-    val dateTime: LiveData<String> get() = _dateTime
-
-    private val _venue = MutableLiveData<String>()
-    val venue: LiveData<String> get() = _venue
-
-    // Function to fetch match details from API
-    fun fetchMatchDetails() {
-        // Implement your API request logic here and update the LiveData variables
-        val teamNamesResponse = "INDIA vs NEW ZEALAND"
-        val dateTimeResponse = "July 7, 2023 - 8:00 PM"
-        val venueResponse = "Stadium XYZ"
-
-        _teamNames.value = teamNamesResponse
-        _dateTime.value = dateTimeResponse
-        _venue.value = venueResponse
-    }*/
 }
