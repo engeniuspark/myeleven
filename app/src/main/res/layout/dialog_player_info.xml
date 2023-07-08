@@ -121,13 +121,13 @@
                         android:id="@+id/tvEconomyRate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Strikerate :" />
+                        android:text="Economy rate :" />
 
                     <TextView
                         android:id="@+id/tvWickets"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Runs :" />
+                        android:text="Wickets :" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

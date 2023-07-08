@@ -65,15 +65,15 @@ class PlayerAdapter(private val players: List<Player>, private val activity: Act
 
         tvPlayerInfo.text = "${player.fullName}"
 
-        tvBattingStyle.text = player.batting.style
-        tvBattingAvg.text = player.batting.average
-        tvStrikeRate.text = player.batting.strikeRate
-        tvRuns.text = player.batting.runs
+        tvBattingStyle.text = "Style : ${player.batting.style}"
+        tvBattingAvg.text = "Average : ${player.batting.average}"
+        tvStrikeRate.text = "Strike rate : ${player.batting.strikeRate}"
+        tvRuns.text = "Runs : ${player.batting.runs}"
 
-        tvBowlingStyle.text = player.bowling.style
-        tvBowlingAvg.text = player.bowling.average
-        tvEconomyRate.text = player.bowling.economyRate
-        tvWickets.text = player.bowling.wickets
+        tvBowlingStyle.text = "Style : ${player.bowling.style}"
+        tvBowlingAvg.text = "Average : ${player.bowling.average}"
+        tvEconomyRate.text = "Economy rate : ${player.bowling.economyRate}"
+        tvWickets.text = "Wickets : ${player.bowling.wickets}"
 
         dialog.show()
 
