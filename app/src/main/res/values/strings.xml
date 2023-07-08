@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Eleven</string>
+    <string name="squads">Squads</string>
+    <string name="player_name">player name</string>
+    <string name="batting_style">Batting Style</string>
+    <string name="bowling_style">Bowling Style</string>
+</resources>
